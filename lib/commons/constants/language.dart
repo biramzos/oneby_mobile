@@ -1,12 +1,12 @@
 enum Language {
-  kz(nameKZ: "", nameRU: "", nameEN: "Kazakh"),
-  ru(nameKZ: "", nameRU: "", nameEN: "Russion"),
-  en(nameKZ: "", nameRU: "", nameEN: "English")
+  kk(nameKK: "", nameRU: "", nameEN: "Kazakh"),
+  ru(nameKK: "", nameRU: "", nameEN: "Russion"),
+  en(nameKK: "", nameRU: "", nameEN: "English")
   ;
 
-  const Language({required this.nameKZ, required this.nameRU, required this.nameEN});
+  const Language({required this.nameKK, required this.nameRU, required this.nameEN});
 
-  final String nameKZ;
+  final String nameKK;
   final String nameRU;
   final String nameEN;
 
@@ -25,7 +25,7 @@ enum Language {
 
   getNames () {
     return {
-      'nameKZ': nameKZ,
+      'nameKK': nameKK,
       'nameRU': nameRU,
       'nameEN': nameEN
     };

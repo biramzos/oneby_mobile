@@ -4,11 +4,11 @@ enum SortDirection {
   DESC("", "", ""),
   ASC("", "", "");
 
-  final String nameKZ;
+  final String nameKK;
   final String nameRU;
   final String nameEN;
 
-  const SortDirection(this.nameKZ, this.nameRU, this.nameEN);
+  const SortDirection(this.nameKK, this.nameRU, this.nameEN);
 
   getName(Language lang) {
     dynamic names = getNames();
@@ -17,7 +17,7 @@ enum SortDirection {
 
   getNames () {
     return {
-      'nameKZ': nameKZ,
+      'nameKK': nameKK,
       'nameRU': nameRU,
       'nameEN': nameEN
     };
