@@ -17,4 +17,17 @@ enum Language {
   String suffix(){
     return name.toUpperCase();
   }
+
+  getName() {
+    dynamic names = getNames();
+    return names['name${suffix()}'];
+  }
+
+  getNames () {
+    return {
+      'nameKZ': nameKZ,
+      'nameRU': nameRU,
+      'nameEN': nameEN
+    };
+  }
 }
