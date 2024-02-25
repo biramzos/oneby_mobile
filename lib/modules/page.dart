@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:oneby_mobile/commons/components/bottom-navigation-bar/bottom-nav-bar.component.dart';
+import 'package:oneby_mobile/commons/components/botnavbar/bot-nav-bar.component.dart';
 import 'package:oneby_mobile/commons/constants/colors.dart';
 
 class AppPage extends StatefulWidget {
