@@ -1,4 +1,4 @@
-import 'language.dart';
+import 'language.constant.dart';
 
 enum SortDirection {
   DESC("", "", ""),

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:oneby_mobile/commons/components/botnavbar/bot-nav-bar.component.dart';
-import 'package:oneby_mobile/commons/constants/colors.dart';
+import 'package:oneby_mobile/commons/constants/colors.constant.dart';
 
 class AppPage extends StatefulWidget {
   const AppPage({super.key});

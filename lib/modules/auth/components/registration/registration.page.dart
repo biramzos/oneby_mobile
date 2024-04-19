@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:oneby_mobile/commons/constants/sort-direction.dart';
+import 'package:oneby_mobile/commons/constants/sort-direction.constant.dart';
 
 class _RegistrationPageState extends StatefulWidget {
   const _RegistrationPageState({super.key});

@@ -1,13 +1,15 @@
+import 'package:oneby_mobile/commons/constants/message-status.constant.dart';
+
 class MessageHandler {
-  String title;
-  MessageStatus status;
+  String? title;
+  MessageStatus? status;
 
-  MessageHandler(this.title, this.status);
-}
+  MessageHandler({required this.title, required this.status});
 
-class MessageStatus {
-  String icon;
-  String color;
-
-  MessageStatus(this.icon, this.color);
+  static fromJson(dynamic data){
+    return MessageHandler(
+        title: data["title"],
+        status: MessageStatus.getByName(data["status"])
+    );
+  }
 }

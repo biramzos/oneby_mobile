@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:oneby_mobile/commons/constants/colors.dart';
+import 'package:oneby_mobile/commons/constants/colors.constant.dart';
 
 class AppTextButton extends StatelessWidget {
   String text;
